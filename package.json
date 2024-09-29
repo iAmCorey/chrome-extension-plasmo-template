@@ -1,0 +1,46 @@
+{
+  "name": "plamo-template",
+  "displayName": "Plasmo Template",
+  "version": "1.0.0",
+  "description": "Plasmo template using tailwindcss and shadcn/ui",
+  "author": "coreychiu",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@plasmohq/storage": "^1.11.0",
+    "@radix-ui/react-checkbox": "^1.1.1",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.407.0",
+    "plasmo": "0.88.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.22.0",
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "@types/chrome": "0.0.258",
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "prettier": "3.2.4",
+    "tailwindcss": "^3.4.4",
+    "typescript": "5.3.3"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*"
+    ]
+  }
+}
