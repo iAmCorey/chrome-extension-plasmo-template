@@ -18,7 +18,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.407.0",
-    "plasmo": "0.88.0",
+    "plasmo": "0.89.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwind-merge": "^2.4.0",

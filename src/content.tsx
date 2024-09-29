@@ -19,7 +19,7 @@ const Content = () => {
 
   return (
     <>
-      this is content
+      {/* this is content */}
     </>
   )
 }
